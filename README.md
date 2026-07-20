@@ -1,2 +1,0 @@
-# StanzaOps-Hostel-Operations-Revenue-Intelligence-Engine
-**StanzaOps: Hostel Operations &amp; Revenue Intelligence Engine** is a data analytics project that transforms manual hostel operations into a centralized intelligence system. Using SQL, Python, Power BI, and GenAI, it analyzes room occupancy, bed utilization, fee collection, payment status, and operational performance to support data-driven decision
