@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv("Hostel_Management_Dataset_Filled.csv")
+print(df.shape)
+df.info()
+missing_values = df.isnull().sum()
+print(missing_values)
+duplicate_resident = df.duplicated(subset=['Resident_ID']).sum()
+print("Duplicate Resident_ID:", duplicate_resident)
+duplicate_mobile = df.duplicated(subset=['Mobile_Number']).sum()
+print("Duplicate Mobile_Number:", duplicate_mobile)
