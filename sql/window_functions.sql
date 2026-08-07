@@ -1,3 +1,10 @@
+/*
+File: window_functions.sql
+Purpose: Performs advanced analytical calculations using SQL
+         window functions such as running totals, ranking,
+         row numbering, and previous/next payment analysis.
+Project: StanzaOps – Hostel Operations & Revenue Intelligence Engine
+*/
 USE stanzaops;
 CREATE VIEW vw_occupancy_rate AS
 SELECT
